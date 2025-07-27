@@ -1,6 +1,4 @@
 """
-TODO:
-
 Define a class `Student` that represents a dictionary with three keys:
 - name, a string
 - age, an integer

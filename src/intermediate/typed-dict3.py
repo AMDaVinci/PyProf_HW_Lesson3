@@ -1,6 +1,4 @@
 """
-TODO:
-
 Define a class `Person` that represents a dictionary with five string keys:
     name, age, gender, address, email
 

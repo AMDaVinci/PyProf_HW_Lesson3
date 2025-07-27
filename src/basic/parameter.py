@@ -1,6 +1,4 @@
 """
-TODO:
-
 foo should accept an integer argument.
 """
 

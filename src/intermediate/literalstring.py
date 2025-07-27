@@ -1,6 +1,4 @@
 """
-TODO:
-
 You're writing a web backend.
 Annotate a function `execute_query` which runs SQL, but also can prevent SQL injection attacks.
 

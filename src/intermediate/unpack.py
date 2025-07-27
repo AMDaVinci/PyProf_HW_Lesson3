@@ -1,6 +1,4 @@
 """
-TODO:
-
 `foo` expects two keyword arguments - `name` of type `str`, and `age` of type `int`.
 """
 

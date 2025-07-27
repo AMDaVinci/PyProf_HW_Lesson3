@@ -1,7 +1,5 @@
 from typing import assert_type
 """
-TODO:
-
 foo should return an integer argument.
 """
 
