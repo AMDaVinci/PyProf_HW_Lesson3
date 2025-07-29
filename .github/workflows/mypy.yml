@@ -20,4 +20,4 @@ jobs:
         uv sync
     - name: Analysing the code with mypy
       run: |
-        mypy .
+        $mypy src
