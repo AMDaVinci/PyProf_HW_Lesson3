@@ -21,4 +21,4 @@ jobs:
         uv add mypy
     - name: Analysing the code with mypy
       run:
-        mypy .
+        python -m mypy .
