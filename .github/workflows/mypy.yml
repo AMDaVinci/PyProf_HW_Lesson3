@@ -18,6 +18,7 @@ jobs:
       run: |
         python -m pip install uv
         uv sync
+        uv add mypy
     - name: Analysing the code with mypy
       run:
         mypy .
