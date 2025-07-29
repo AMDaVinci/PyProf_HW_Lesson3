@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.12"]
+        python-version: ["3.13"]
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python ${{ matrix.python-version }}
@@ -19,5 +19,5 @@ jobs:
         python -m pip install uv
         uv sync
     - name: Analysing the code with mypy
-      run: |
-        $mypy src
+      run:
+        mypy .
